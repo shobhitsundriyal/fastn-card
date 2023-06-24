@@ -1,40 +1,59 @@
--- ds.page: Welcome to doc-site
+-- ftd.column:
+width: fill-container
+height: fill-container
+background.solid: #000
+spacing.fixed.px: 20		
+
+-- card:
+-- card: Itachi Uchia
+
+"Foolish little brother, if you want to kill me, despise me, hate me. Run, run.. cling to live and survive in an unsightly way. Then someday, when you had these same eyes, come to me."
 
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
-
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
-
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
-
--- ds.h3: 🚀 Fast Track 
-
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
-
--- ds.h3: 🌟 Whats next?
-
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/page/).
-
--- ds.h3: 👀 Want to learn more?
-
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- end: ftd.column
 
 
--- ds.h3: 🎯 Used by?
+-- component card:
+caption title: Arre title toh do
+body description: Chota description bhi do yaar 
 
-Our all documentation sites uses this `doc-site` theme.
+-- ftd.column:
+width: fill-container
+height: fill-container
+background.solid: black
+align-content: center
 
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
+-- ftd.row:
+width.fixed.px: 650
+height.fixed.px: 350
+background.solid: grey
+border-color: red 
+border-width.px: 3
+border-radius.px: 20
+padding.px: 20
 
--- ds.h2: Learn fastn and become a pro?
+-- ftd.image:
+src: https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/733b5da9-efe6-4697-a4f9-9e9d4975f828/de8g74b-0127ef26-febe-4074-8ac3-b74dbde3b0a3.jpg/v1/fill/w_730,h_1095,q_70,strp/itachi_uchiha__by_sasukegfx_de8g74b-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDA5NiIsInBhdGgiOiJcL2ZcLzczM2I1ZGE5LWVmZTYtNDY5Ny1hNGY5LTllOWQ0OTc1ZjgyOFwvZGU4Zzc0Yi0wMTI3ZWYyNi1mZWJlLTQwNzQtOGFjMy1iNzRkYmRlM2IwYTMuanBnIiwid2lkdGgiOiI8PTI3MzAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.Xdw-MXTt7PDKltub3YBjuckiNypGtaFcjwR-bOxcV-s
+height: fill-container
+border-radius.px: 20
 
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- ftd.column:
+padding-horizontal.px: 20
 
--- end: ds.page
+-- ftd.text: $card.title
+role: $inherited.types.heading-medium
+
+-- ftd.text: $card.description
+role: $inherited.types.copy-regular
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- ftd.container:
+
+-- end: ftd.container
+
+-- end: ftd.column
+
+-- end: card
